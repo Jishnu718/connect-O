@@ -1,0 +1,47 @@
+html
+{
+    overflow: hidden;
+}
+
+body
+{
+    font-family: 'Libre Baskerville',sans-serif, Arial;;
+    font-size: 18px; 	
+    line-height: 35px;
+    font-weight: 400;	
+    letter-spacing: -1px;
+    color: #404040;
+    background-color: #fff;
+   text-align: center;
+}
+body a
+{
+    text-decoration: none;
+    color: #404040;    
+    transition: color .2s linear, background-color .2s linear, border-color .2s linear;
+}
+
+body a:hover
+{
+    color: #0697AE;
+}
+.container{
+    background-image: url("BACKGROuND.jpg");
+}
+.btn-wrapper{
+    float: right;
+    padding-bottom: 300px;
+}
+.header{
+    margin:100px 100px;
+    padding:200px 200px;
+    color: white;
+    background-color: black;
+}
+button{
+    background-color: rgb(5, 63, 255);
+    padding: 15px 10px;
+    border-radius: 4px;
+    border-color:black;
+    color: white;
+}
