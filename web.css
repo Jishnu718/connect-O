@@ -26,7 +26,11 @@ body a:hover
     color: #0697AE;
 }
 .container{
-    background-image: url("BACKGROuND.jpg");
+    background-image: url("BACKGROUND.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .btn-wrapper{
     float: right;
